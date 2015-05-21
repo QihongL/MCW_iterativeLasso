@@ -2,7 +2,7 @@
 Run iterative lasso on the MCW data set. The iterative lasso code was adapted from knowledge and concepts lab github, which can be retrieved from this link: https://github.com/UWKCL/iterativelasso
 
 
-Some stats of the MCW dataset 
+Some stats of the MCW dataset:
 
 1200 rows
 - 1-900: TrueWords
