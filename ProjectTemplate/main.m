@@ -2,7 +2,7 @@ function results = main()
 	%% Set Variables
   PARAMS = loadjson('PARAMS.json');
   if isfield(PARAMS, 'MaxIter')
-    MaxIter = PARAMS['MaxIter'];
+    MaxIter = PARAMS.MaxIter;
   else
     MaxIter = 0;
   end
