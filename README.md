@@ -39,7 +39,7 @@ inner k folders cross validation
 
 e.g.: 
 for every subjects: 
-  do 10 folds CV
+  - do 10 folds CV
   - try lambda1, lambda2, ..., lambdaN
   - AND  for each lambda, do 9 folds CV (we can use cvglmnet() to do this)
 
