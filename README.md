@@ -42,6 +42,9 @@ steps: e.g.
 - do 10 folds CV
 - with in each fold, try lambda1, lambda2, ..., lambdaN
 - AND  for each lambda, do 9 folds CV with cvglmnet()
+- 
+
+
 
 
 
