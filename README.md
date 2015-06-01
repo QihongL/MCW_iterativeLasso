@@ -19,19 +19,21 @@ Goal:
 
 notes 6/1: 
 
-- data for subject1: 
-X = numItems x numVoxels, matrix
-Y = numItems x 1, logical vector  (e.g. 1 = 'animal', 0 = 'non-animal')
+data for subject1: 
+- X = numItems x numVoxels, matrix
+- Y = numItems x 1, logical vector  (e.g. 1 = 'animal', 0 = 'non-animal')
 
-- obejctive: Yhat = XB close to Y 
-Since we are using LASSO, many elements in B are going to be zero out
+obejctive: Yhat = XB close to Y 
+- Since we are using LASSO, many elements in B are going to be zero out
 
-- lambda: sparsity parameter. bigger lambda ~> more zeros
-note that the "best lambda" is unknown 
+lambda: sparsity parameter. 
+- bigger lambda ~> more zeros
+- note that the "best lambda" is unknown 
 
-- k folds cross validation: 
-
+k folds cross validation: 
 - 
+
+
 
 
 
