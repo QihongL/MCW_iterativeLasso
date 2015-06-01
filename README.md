@@ -37,11 +37,11 @@ inner k folders cross validation
 - tune lambda with respect to the "performance"
 
 
-e.g.: 
-for every subjects: 
-  - do 10 folds CV
-  - try lambda1, lambda2, ..., lambdaN
-  - AND  for each lambda, do 9 folds CV (we can use cvglmnet() to do this)
+e.g. 
+1. for every subjects: 
+2. do 10 folds CV
+2. with in each fold, try lambda1, lambda2, ..., lambdaN
+3. AND  for each lambda, do 9 folds CV with cvglmnet()
 
 
 
