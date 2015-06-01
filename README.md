@@ -2,7 +2,7 @@
 Run iterative lasso on the MCW data set. The iterative lasso code was adapted from knowledge and concepts lab github, which can be retrieved from this link: https://github.com/UWKCL/iterativelasso
 
 
-Some stats of the MCW dataset:
+intro the MCW dataset:
 
 1200 rows
 - 1-900: TrueWords
@@ -30,8 +30,20 @@ lambda: sparsity parameter.
 - bigger lambda ~> more zeros
 - note that the "best lambda" is unknown 
 
-k folds cross validation: 
-- 
+outer k folds cross validation
+- maximize the "performance" on the test set
+
+inner k folders cross validation
+- tune lambda with respect to the "performance"
+
+
+e.g.: 
+10 folds CV
+- try lambda1, lambda2, ..., lambdaN
+- - for each lambda, do 9 folds CV 
+
+and do this for every subject 
+
 
 
 
